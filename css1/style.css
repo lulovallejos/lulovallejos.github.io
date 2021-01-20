@@ -12,6 +12,7 @@ body {
     font-size: 1.5em;
   }
   .image {
+    float: right;
     margin: 0 auto;
     border: solid 3px #223c5f; 
     color: #223c5f; 
