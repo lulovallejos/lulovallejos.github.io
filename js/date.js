@@ -1,11 +1,41 @@
-function getYear() {
-    var year = new Date().getFullYear();
-    document.getElementById("currentYear").innerHTML = year;
-}
-var currentYear = setInterval(getYear, onload);
+let daynames = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+  ];
+  let months = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+  ];
+  let d = new Date();
+  let dayName = daynames[d.getDay()];
+  let monthName = months[d.getMonth()];
+  let fulldate =
+    dayName +
+    ", " +
+    monthName +
+    " " +
+    d.getDate() +
+    ", " +
+    d.getFullYear();
 
-function lastUpdate() {
-    var updated = document.lastModified;
-    document.getElementById("lastUpdate").innerHTML = updated;
-}
-var fixed = setInterval(lastUpdate, onload);
+  document.getElementById("currentdate").textContent = fulldate;
+
+  document.getElementById("currentyear").textContent = d.getFullYear();
+
+  let oLastModif = new Date(document.lastModified);
+  document.getElementById("lastModified").textContent = oLastModif;
