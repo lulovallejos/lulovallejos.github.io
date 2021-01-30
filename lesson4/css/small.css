@@ -56,9 +56,11 @@ nav button{
 }
 
 nav{
-   clear:left;
    background-color:#708C64;
    font-family: 'Montserrat', sans-serif;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 
 nav ul{
