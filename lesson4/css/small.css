@@ -52,7 +52,7 @@ nav button{
 
 nav{
     clear:left;
-   background-color: #fac549;
+   background-color:#708C64;
    font-family: 'Montserrat', sans-serif;
 }
 
@@ -108,7 +108,7 @@ nav ul li a:hover{
 
   /*Footer*/
 
-  footer{
+  .footer{
       background-color:#D8E6F2;
       padding: 0.8em;
       font-family: 'Roboto', sans-serif;
