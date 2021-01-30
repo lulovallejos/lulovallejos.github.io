@@ -101,6 +101,7 @@ nav ul li a:hover{
     color: #0C1618;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    border: 1px dashed #000; 
     
   }
 
