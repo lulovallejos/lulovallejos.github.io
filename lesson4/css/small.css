@@ -26,7 +26,6 @@ img{
     display:block;
     margin-left: auto;
     margin-right: auto;
-
     width: 150px;
     
 }
@@ -36,6 +35,12 @@ img{
 header{
     background-color:#D8E6F2;
     padding: 0.8em;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 0;
 }
  /*Style for the navigation, how will display, and the responsive for mobile*/
 
