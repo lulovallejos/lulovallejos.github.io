@@ -3,6 +3,8 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/lesson4/css/small.css">
     <link rel="stylesheet" href="/lesson4/css/medium.css">
     <link rel="stylesheet" href="/lesson4/css/large.css">
@@ -39,7 +41,7 @@
 
 <main>
     <div class="">
-    <h2>Preston Idaho</h2>
+    <h2>Preston, Idaho</h2>
     <div class="contentbox">Weather Summary</div>
     <div class="contentbox forescast">5 Day Forecast</div>
     <div class="contentbox">Article</div>
@@ -47,12 +49,14 @@
 </main>
 
 <footer>
-    &copy; 2021 The Las Heras' Climate | Lucas Vallejos | Buenos Aires, Argentina | 
-    <a href="https://www.byui.edu" target="_blank">BYUI Online Learning</a><br>
-
-    <span id="date"></span><br>
+    &copy; <span id="currentyear"></span> | Lucas Vallejos | Buenos Aires, Argentina |
+        <a class="footlink" href="https://www.byui.edu">BYU-I Online Learning</a> | <span id="currentdate"></span><br/>
+            <div class="subscript">Last Modified:
+            <span id="lastModified"></span></div>
+            <script src="js/date.js"></script>
+  
 </footer>
-<script src="js/date.js"></script>
+
 
 </body>
 </html>
