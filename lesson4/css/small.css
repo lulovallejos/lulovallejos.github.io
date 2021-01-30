@@ -51,7 +51,7 @@ nav button{
 }
 
 nav{
-    clear:left;
+   clear:left;
    background-color:#708C64;
    font-family: 'Montserrat', sans-serif;
 }
@@ -80,7 +80,7 @@ nav ul li.active{
 
 
 nav ul li a:hover{
-    background-color: #f8961e ;
+    background-color:#AED99A ;
 }
 
  
@@ -97,7 +97,7 @@ nav ul li a:hover{
     display: block;
     margin: 10px auto;
     padding: 15px;
-    background-color: #f9dcc4;
+    background-color: #AED99A;
     color: #0C1618;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
