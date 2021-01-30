@@ -23,10 +23,9 @@ h2{
  /*Style for the logo and how the image will diaplay*/
 
 img{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 150px;
+    display: block;
+    height: auto;
+    width: 100px;
     
 }
 
