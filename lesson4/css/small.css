@@ -138,3 +138,9 @@ nav ul li a:hover{
   nav ul.hide{
       display: none;
   }
+
+  .logobox {
+    width: 100px;
+    height: auto;
+    display:block;
+  }
