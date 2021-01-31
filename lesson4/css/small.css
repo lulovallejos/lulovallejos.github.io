@@ -1,4 +1,3 @@
-/* style for the font of the page*/
 
 h1{
     font-size: 3em;
@@ -20,12 +19,6 @@ h2{
   
 }
 
- /*Style for the logo and how the image will diaplay*/
-
-
-
-/*Style for the header*/
-
 header{
     background-color:#D8E6F2;
     padding: 0.8em;
@@ -36,9 +29,6 @@ header{
     align-items: center;
     margin: 0;
 }
- /*Style for the navigation, how will display, and the responsive for mobile*/
-
-
 
 nav button{
     margin: .2rem 2%;
@@ -84,15 +74,12 @@ nav ul li a:hover{
     background-color:#AED99A ;
 }
 
- 
-/*----- Clearfix: Force an Element not to collapse -----*/
+
 .clearfix:after {
     content: "";
     display: table;
     clear: both;
   }
-
-  /*Content*/
 
   .contentbox{
     display: block;
@@ -107,8 +94,6 @@ nav ul li a:hover{
   }
 
 
-  /*Footer*/
-
   .footer{
       background-color:#D8E6F2;
       padding: 0.8em;
@@ -119,7 +104,6 @@ nav ul li a:hover{
 
   }
     
-  /*Link del footer*/
 
   a.link{
       text-decoration: none;
@@ -137,7 +121,7 @@ nav ul li a:hover{
 
   .logobox,
   img {
-    width: 100px;
+    width: 150px;
     height: auto;
-    display:block;
+    display: block;
   }

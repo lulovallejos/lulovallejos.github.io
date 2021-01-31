@@ -1,0 +1,23 @@
+@media only screen and (min-width: 35rem) {
+
+    .logobox,
+    img {
+        width: 150px;
+        height: auto;
+    }
+    
+    .h2 {
+        text-align: center;
+    }
+    nav {
+        background-color: #708C64;
+        font-family: 'Montserrat', sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header {
+        background-color: #D8E6F2;
+    }
+}
