@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/lesson4/css/small.css">
+    <link rel="stylesheet" href="/lesson4/css/medium.css">
+    <link rel="stylesheet" href="/lesson4/css/large.css">
+
+    <title>Lucas Vallejos' weather site</title>
+    <meta name="description" content="Las Heras Climate site">
+    <link rel="shortcut icon" href="/Images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+<header>
+    <div class="logobox">
+        <img src="/Images/logo.png" alt="Las Heras' Climate logo">
+    </div>
+
+    <section class="site-name">
+        <h1>The Las Heras' Climate</h1>
+        <p></p>
+    </section>
+
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+
+            <ul id="mainnav" class="hide">
+                <li><a href="#">Home</a></li>
+                <li class="active"><a href="preston-4.html">Preston</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+
+    <h2>Preston, Idaho</h2>
+    <div class="contentbox">Weather Summary</div>
+    <div class="contentbox forescast">5 Day Forecast</div>
+    <div class="contentbox">Article</div>
+    <div class="contentbox">Contact Information</div>
+</main>
+
+<footer>
+    <div class="footer">
+    &copy; <span id="currentyear"></span> <a href="/lesson1/index.html">| Lucas Vallejos</a> | Buenos Aires, Argentina |
+        <a class="footlink" href="https://www.byui.edu">BYU-I Online Learning</a> | <span id="currentdate"></span><br/>
+            <div class="subscript">Last Modified:
+            <span id="lastModified"></span></div>
+            <script src="/lesson4/js/date4.js"></script>
+  
+</footer>
+
+
+</body>
+</html>
