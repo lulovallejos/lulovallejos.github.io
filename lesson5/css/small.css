@@ -27,7 +27,7 @@ header{
     justify-content: center;
     align-content: center;
     align-items: center;
-    margin: 0;
+    
 }
 
 nav button{
@@ -157,3 +157,11 @@ nav ul li a:hover{
 .stats p {
     font-size: 10px;;
 }
+
+header,
+  nav,
+  main,
+  footer {
+      max-width: auto;
+      margin: 0 auto;
+  }
