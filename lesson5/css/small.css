@@ -216,3 +216,7 @@ header,
     margin-top:20 px; 
 }
 
+.navlinks li {
+    font-size: 17px;
+    list-style:none;
+}
